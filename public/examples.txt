@@ -1,0 +1,28 @@
+
+ backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0,0.5)),url({myImage})`,
+  },
+  carConeteiner: {
+    paddingTop: theme.spacing(3),
+    backgroundColor: "#ff0000",
+  },
+  a: {
+    color: "#ff0000",
+    fontWeight: 1800,
+    paddingBottom: theme.spacing(3),
+    backgroundColor: "#ff0000",
+  },
+
+
+  <AppBar position="static" className={classes.appbar}>
+        <Toolbar variant="dense">
+          <IconButton
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2 }}
+          ></IconButton>
+          <Typography variant="h6" color="inherit" component="div">
+            Wypożyczalnia
+          </Typography>
+        </Toolbar>
+      </AppBar>
